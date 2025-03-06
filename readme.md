@@ -1,8 +1,11 @@
-Got it! I'll add those installation commands to your `README.md` file in the appropriate section. Here's the updated portion of the **Installation** section:
+### Direct Link
+
+Use the bot directly through this link: [ReborCoinBot](https://t.me/ReborCoinBot/app?startapp=66e50f08).
 
 ---
 
 ### Installation
+
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-repository/rebor-bot.git
@@ -50,6 +53,20 @@ Got it! I'll add those installation commands to your `README.md` file in the app
    module.exports = userAgents;
    ```
 
+5. **Start the Bot**:
+   To run the bot, use the following command:
+   ```bash
+   node coffin.js
+   ```
+
+6. **Finding Your Token**:
+   To find your account token for in network
+   - Open Developer Tools (press `F12` in your browser).
+   - Navigate to the **Network** tab and perform an action like logging in.
+   - Look for requests related to `profile` or `auth`.
+   - In the request headers, find the `Authorization` field, which contains your token (starts with `Bearer`).
+   - Copy this token and paste it into the `tokens.txt` file.
+
 ---
 
-This addition makes it clear to users how to address potential `chalk` version compatibility issues. Let me know if there’s anything else you’d like to include!
+Let me know if you’d like more adjustments!
